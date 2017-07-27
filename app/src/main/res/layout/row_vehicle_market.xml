@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d6ffffff"
+    android:layout_marginTop="8sp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_style"
+            android:orientation="vertical"
+            >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/row_style"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center_vertical"
+        android:background="#000000">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/unknown"
+            android:id="@+id/img_BrandId"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3DABFC"
+                android:text="Honda Jazz"
+                android:id="@+id/tv_titleId"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666565"
+                android:text="5200km/desel/3rd owner"
+                android:layout_marginTop="3dp"
+                android:id="@+id/tv_informationId"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666565"
+                android:id="@+id/tv_postedDate"
+                android:layout_marginTop="3dp"
+                android:text="Posteed: 1month ago"
+                android:gravity="left"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0000"
+            android:textStyle="bold"
+            android:id="@+id/tv_priceId"
+            android:layout_marginTop="3dp"
+            android:text="Rs:25000/-"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:text="View Details"
+            android:id="@+id/btn_ViewDtlsId"
+            android:textSize="12dp"
+            android:background="#ff3636"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/img_msgId"
+            android:src="@drawable/chat_icon"/>
+    </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+ </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

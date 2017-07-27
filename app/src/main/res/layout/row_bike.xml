@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c6cacc"
+    android:id="@+id/lin_submodel_id">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Title and Address"
+            android:textColor="#ee000000"
+            android:id="@+id/tv_row_vehiclename_id"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Title and Address"
+            android:textColor="#ee000000"
+            android:id="@+id/tv_row_vehiclename_id_code"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/slider_selector">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/slid_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Home"
+            android:layout_marginTop="10dp"
+            android:textColor="#eeee"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_sl_home_id"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Service History"
+            android:layout_marginTop="10dp"
+            android:textColor="#eeee"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_sl_servicehistory"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Profile"
+            android:layout_marginTop="10dp"
+            android:textColor="#eeee"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_sl_profile_id"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Login "
+            android:layout_marginTop="10dp"
+            android:textColor="#eeee"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_sl_login_id"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "381559775006",
+    "firebase_url": "https://nuclearwheels-94089.firebaseio.com",
+    "project_id": "nuclearwheels-94089",
+    "storage_bucket": "nuclearwheels-94089.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381559775006:android:94f96e3009cc85dc",
+        "android_client_info": {
+          "package_name": "com.vecta.nuclearwheels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381559775006-lhhrpcdb25n54cill0rvdiv7qfoltua5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vecta.nuclearwheels",
+            "certificate_hash": "F03D6D552E5E8F3285679075BD47A193DAE21095"
+          }
+        },
+        {
+          "client_id": "381559775006-76gppr1e0jrqrio8s9at1n6lns1nmrt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMcJyw_gsInchyZJP9Z7Q9vpktHonWyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381559775006-76gppr1e0jrqrio8s9at1n6lns1nmrt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

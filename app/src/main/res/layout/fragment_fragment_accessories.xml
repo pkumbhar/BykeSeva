@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context="com.vecta.nuclearwheels.FragmentAccessories">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.5" >
+
+        <view
+            android:id="@+id/recycler_accessories_id"
+            class="android.support.v7.widget.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="6dp"
+            android:layout_centerInParent="true"
+            android:background="#c4c763"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/lin_accessories_ID"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/electric_current_symbol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Data"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:textColor="#080808"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_not_found_for_accessories"
+                android:gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:textSize="12sp"
+                android:layout_marginTop="8sp"
+                android:textColor="#363636"/>
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:text="Refersh"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="8sp"
+                android:background="@drawable/serviceselector_selector"
+                android:textColor="#393939"
+                android:id="@+id/btn_refreshAccessoriesID"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

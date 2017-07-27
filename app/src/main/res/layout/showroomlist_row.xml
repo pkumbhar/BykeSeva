@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#403e3f">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="50dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.8">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18dp"
+                android:layout_marginRight="25dp"
+                android:textStyle="bold"
+                android:textColor="#abe9e9e9"
+                android:id="@+id/tv_cl_servicenterNamename_id"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="12dp"
+                android:textColor="#eeee"
+                android:id="@+id/tv_sl_servicecenterAddress_id"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Call  Now"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#eeee"
+                android:layout_marginBottom="4dp"
+                style="@style/btnschedule"
+                android:id="@+id/btn_sl_call_id"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.2"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="40sp"
+                android:id="@+id/img_compose_id"
+                android:src="@drawable/compass"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#525252"></View>
+</LinearLayout>

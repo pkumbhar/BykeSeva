@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vecta.nuclearwheels.BikeBrands"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#db093a68"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#000000">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/_av_atar"
+                android:id="@+id/login_image"
+                android:layout_marginBottom="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:enabled="false"
+                android:gravity="center"
+                android:id="@+id/ed_myp_userName"
+                android:textSize="15dp"
+                android:textColor="#FAFAFA"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Password"
+                android:gravity="center"
+                android:id="@+id/ed_myp_password_id"
+                android:textSize="15dp"
+                android:textColor="#FAFAFA"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Email Id"
+                android:gravity="center"
+                android:id="@+id/ed_myp_email_id"
+                android:textSize="15dp"
+                android:enabled="false"
+                android:textColor="#FAFAFA"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Contact number"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#FAFAFA"
+                android:id="@+id/ed_myp_contact_number_id"
+                android:enabled="false"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Address1"
+                android:visibility="gone"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:id="@+id/ed_myp_address_add1_id"
+                android:textColor="#FAFAFA"
+                android:enabled="false"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:hint="Address2"
+                android:id="@+id/ed_myp_address_add2_id"
+                android:textSize="10dp"
+                android:textColor="#FAFAFA"/>
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bike Description"
+                    android:background="#FFCA28"
+                    android:layout_weight="0.5"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Service History"
+                    android:background="#FFCA28"
+                    android:layout_weight="0.5"/>
+
+            </LinearLayout>-->
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
